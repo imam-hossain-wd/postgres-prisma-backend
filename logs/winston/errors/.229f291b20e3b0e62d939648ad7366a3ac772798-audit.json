@@ -9,6 +9,11 @@
             "date": 1693837748041,
             "name": "G:\\next-level-web-development\\postgres-prisma-backend\\logs\\winston\\errors\\postgres-2023-04-09-20-error.log",
             "hash": "d3632438beb341aa2d97921bc665b9872d47966c840a3b173533693b7da0bb5b"
+        },
+        {
+            "date": 1693840124360,
+            "name": "G:\\next-level-web-development\\postgres-prisma-backend\\logs\\winston\\errors\\postgres-2023-04-09-21-error.log",
+            "hash": "7e8311c3d918d034560bf02f8ac5cfc169e15fe49112a118c29abb05ecb8df84"
         }
     ],
     "hashType": "sha256"
