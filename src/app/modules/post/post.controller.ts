@@ -6,6 +6,7 @@ import { postService } from "./post.service";
 
 
 
+
 const createPost:RequestHandler = catchAsync(async(req, res)=> {
     const result = await postService.createPost(req.body);
     sendResponse(res, {
@@ -17,7 +18,8 @@ const createPost:RequestHandler = catchAsync(async(req, res)=> {
 
 })
 const getAllPosts:RequestHandler = catchAsync(async(req, res)=> {
-    const result = await postService.getAllPost();
+    const options = req.query;
+    const result = await postService.getAllPost(options);
     sendResponse(res, {
         statusCode: httpStatus.OK,
         success: true,

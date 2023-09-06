@@ -35,7 +35,6 @@ model Profile {
 model Post {
   id    String @id @default(uuid())
   title String
-
   author     User   @relation(fields: [authorId], references: [id])
   authorId String @unique
   category   Category @relation(fields: [categoryId], references: [id])
