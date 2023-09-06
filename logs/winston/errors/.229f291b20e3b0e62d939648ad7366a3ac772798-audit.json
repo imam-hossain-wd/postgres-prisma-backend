@@ -19,6 +19,26 @@
             "date": 1693843713903,
             "name": "G:\\next-level-web-development\\postgres-prisma-backend\\logs\\winston\\errors\\postgres-2023-04-09-22-error.log",
             "hash": "99ad69c73783fa469aa05d92989610100391e1956c0f368d4ca31a2e749a7a22"
+        },
+        {
+            "date": 1693855238500,
+            "name": "G:\\next-level-web-development\\postgres-prisma-backend\\logs\\winston\\errors\\postgres-2023-05-09-01-error.log",
+            "hash": "108620a3df6317a312bb4a32eb1c4f3f77c0a3eaffd93d962c862168258dae49"
+        },
+        {
+            "date": 1693857602435,
+            "name": "G:\\next-level-web-development\\postgres-prisma-backend\\logs\\winston\\errors\\postgres-2023-05-09-02-error.log",
+            "hash": "2d73b22ccc1b7f532e7fca497b7765f99566111aa8ef52792f839631a8d4ab86"
+        },
+        {
+            "date": 1694029692632,
+            "name": "G:\\next-level-web-development\\postgres-prisma-backend\\logs\\winston\\errors\\postgres-2023-07-09-01-error.log",
+            "hash": "2dd43f83a26c4d8a03f9ac141b1a7d9272335561398dda4e0e167f89c8ecbfff"
+        },
+        {
+            "date": 1694030413168,
+            "name": "G:\\next-level-web-development\\postgres-prisma-backend\\logs\\winston\\errors\\postgres-2023-07-09-02-error.log",
+            "hash": "338a64df3d28a7e52ed56d3cb233e6bc7b720f359692e8b66e77d4c81d00ab7f"
         }
     ],
     "hashType": "sha256"

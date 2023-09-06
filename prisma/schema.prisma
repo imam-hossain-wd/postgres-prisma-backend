@@ -17,6 +17,8 @@ model User {
   role    String
   Post    Post?
   Profile Profile?
+  createAt DateTime @default(now())
+  updatedAt DateTime @updatedAt @default(now())
 
   @@map("users")
 }
@@ -34,9 +36,8 @@ model Post {
   id    String @id @default(uuid())
   title String
 
-  user     User   @relation(fields: [authorId], references: [id])
+  author     User   @relation(fields: [authorId], references: [id])
   authorId String @unique
-
   category   Category @relation(fields: [categoryId], references: [id])
   categoryId String   @unique
   createAt   DateTime @default(now())
